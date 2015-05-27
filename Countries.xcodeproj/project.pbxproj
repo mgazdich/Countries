@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE2EC22C180C5C4E007E76DB /* CountryMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2EC22B180C5C4E007E76DB /* CountryMapViewController.m */; };
+		D83C865B18045FB600D30230 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83C865A18045FB600D30230 /* CoreLocation.framework */; };
+		D83C865D18045FC000D30230 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83C865C18045FC000D30230 /* MapKit.framework */; };
+		D876F40F180C432C00BBD6ED /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D876F40E180C432C00BBD6ED /* MasterViewController.m */; };
+		D876F412180C445600BBD6ED /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D876F411180C445600BBD6ED /* DetailViewController.m */; };
 		D89CAB0217FB0A7E006C1D1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89CAB0117FB0A7E006C1D1E /* Foundation.framework */; };
 		D89CAB0417FB0A7E006C1D1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89CAB0317FB0A7E006C1D1E /* CoreGraphics.framework */; };
 		D89CAB0617FB0A7E006C1D1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89CAB0517FB0A7E006C1D1E /* UIKit.framework */; };
@@ -15,13 +20,15 @@
 		D89CAB1217FB0A7E006C1D1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D89CAB1117FB0A7E006C1D1E /* AppDelegate.m */; };
 		D89CAB1517FB0A7E006C1D1E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89CAB1317FB0A7E006C1D1E /* Main_iPhone.storyboard */; };
 		D89CAB1817FB0A7E006C1D1E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89CAB1617FB0A7E006C1D1E /* Main_iPad.storyboard */; };
-		D89CAB1B17FB0A7E006C1D1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89CAB1A17FB0A7E006C1D1E /* ViewController.m */; };
+		D89CAB1B17FB0A7E006C1D1E /* CountryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89CAB1A17FB0A7E006C1D1E /* CountryViewController.m */; };
 		D89CAB1D17FB0A7E006C1D1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89CAB1C17FB0A7E006C1D1E /* Images.xcassets */; };
 		D89CAB2417FB0A7E006C1D1E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89CAB2317FB0A7E006C1D1E /* XCTest.framework */; };
 		D89CAB2517FB0A7E006C1D1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89CAB0117FB0A7E006C1D1E /* Foundation.framework */; };
 		D89CAB2617FB0A7E006C1D1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89CAB0517FB0A7E006C1D1E /* UIKit.framework */; };
 		D89CAB2E17FB0A7E006C1D1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D89CAB2C17FB0A7E006C1D1E /* InfoPlist.strings */; };
 		D89CAB3017FB0A7E006C1D1E /* CountriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D89CAB2F17FB0A7E006C1D1E /* CountriesTests.m */; };
+		D89CAB3B17FB11B0006C1D1E /* CountryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D89CAB3A17FB11B0006C1D1E /* CountryCell.m */; };
+		D89CAB4217FB132A006C1D1E /* CountryWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89CAB4117FB132A006C1D1E /* CountryWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE2EC22A180C5C4E007E76DB /* CountryMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryMapViewController.h; sourceTree = "<group>"; };
+		BE2EC22B180C5C4E007E76DB /* CountryMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryMapViewController.m; sourceTree = "<group>"; };
+		D83C865A18045FB600D30230 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D83C865C18045FC000D30230 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D876F40D180C432C00BBD6ED /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D876F40E180C432C00BBD6ED /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D876F410180C445600BBD6ED /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D876F411180C445600BBD6ED /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		D89CAAFE17FB0A7E006C1D1E /* Countries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89CAB0117FB0A7E006C1D1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D89CAB0317FB0A7E006C1D1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,14 +62,18 @@
 		D89CAB1117FB0A7E006C1D1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D89CAB1417FB0A7E006C1D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		D89CAB1717FB0A7E006C1D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		D89CAB1917FB0A7E006C1D1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D89CAB1A17FB0A7E006C1D1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D89CAB1917FB0A7E006C1D1E /* CountryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryViewController.h; sourceTree = "<group>"; };
+		D89CAB1A17FB0A7E006C1D1E /* CountryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountryViewController.m; sourceTree = "<group>"; };
 		D89CAB1C17FB0A7E006C1D1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D89CAB2217FB0A7E006C1D1E /* CountriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89CAB2317FB0A7E006C1D1E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D89CAB2B17FB0A7E006C1D1E /* CountriesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CountriesTests-Info.plist"; sourceTree = "<group>"; };
 		D89CAB2D17FB0A7E006C1D1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D89CAB2F17FB0A7E006C1D1E /* CountriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountriesTests.m; sourceTree = "<group>"; };
+		D89CAB3917FB11B0006C1D1E /* CountryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCell.h; sourceTree = "<group>"; };
+		D89CAB3A17FB11B0006C1D1E /* CountryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCell.m; sourceTree = "<group>"; };
+		D89CAB4017FB132A006C1D1E /* CountryWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryWebViewController.h; sourceTree = "<group>"; };
+		D89CAB4117FB132A006C1D1E /* CountryWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83C865D18045FC000D30230 /* MapKit.framework in Frameworks */,
+				D83C865B18045FB600D30230 /* CoreLocation.framework in Frameworks */,
 				D89CAB0417FB0A7E006C1D1E /* CoreGraphics.framework in Frameworks */,
 				D89CAB0617FB0A7E006C1D1E /* UIKit.framework in Frameworks */,
 				D89CAB0217FB0A7E006C1D1E /* Foundation.framework in Frameworks */,
@@ -103,6 +124,8 @@
 		D89CAB0017FB0A7E006C1D1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D83C865C18045FC000D30230 /* MapKit.framework */,
+				D83C865A18045FB600D30230 /* CoreLocation.framework */,
 				D89CAB0117FB0A7E006C1D1E /* Foundation.framework */,
 				D89CAB0317FB0A7E006C1D1E /* CoreGraphics.framework */,
 				D89CAB0517FB0A7E006C1D1E /* UIKit.framework */,
@@ -118,10 +141,20 @@
 				D89CAB1117FB0A7E006C1D1E /* AppDelegate.m */,
 				D89CAB1317FB0A7E006C1D1E /* Main_iPhone.storyboard */,
 				D89CAB1617FB0A7E006C1D1E /* Main_iPad.storyboard */,
-				D89CAB1917FB0A7E006C1D1E /* ViewController.h */,
-				D89CAB1A17FB0A7E006C1D1E /* ViewController.m */,
+				D89CAB1917FB0A7E006C1D1E /* CountryViewController.h */,
+				D89CAB1A17FB0A7E006C1D1E /* CountryViewController.m */,
 				D89CAB1C17FB0A7E006C1D1E /* Images.xcassets */,
 				D89CAB0817FB0A7E006C1D1E /* Supporting Files */,
+				D89CAB3917FB11B0006C1D1E /* CountryCell.h */,
+				D89CAB3A17FB11B0006C1D1E /* CountryCell.m */,
+				BE2EC22A180C5C4E007E76DB /* CountryMapViewController.h */,
+				BE2EC22B180C5C4E007E76DB /* CountryMapViewController.m */,
+				D89CAB4017FB132A006C1D1E /* CountryWebViewController.h */,
+				D89CAB4117FB132A006C1D1E /* CountryWebViewController.m */,
+				D876F40D180C432C00BBD6ED /* MasterViewController.h */,
+				D876F40E180C432C00BBD6ED /* MasterViewController.m */,
+				D876F410180C445600BBD6ED /* DetailViewController.h */,
+				D876F411180C445600BBD6ED /* DetailViewController.m */,
 			);
 			path = Countries;
 			sourceTree = "<group>";
@@ -202,6 +235,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Mike Gazdich";
 				TargetAttributes = {
+					D89CAAFD17FB0A7E006C1D1E = {
+						DevelopmentTeam = 4YCR2BLXKU;
+					};
 					D89CAB2117FB0A7E006C1D1E = {
 						TestTargetID = D89CAAFD17FB0A7E006C1D1E;
 					};
@@ -253,9 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D89CAB1B17FB0A7E006C1D1E /* ViewController.m in Sources */,
+				D89CAB3B17FB11B0006C1D1E /* CountryCell.m in Sources */,
+				D89CAB1B17FB0A7E006C1D1E /* CountryViewController.m in Sources */,
 				D89CAB1217FB0A7E006C1D1E /* AppDelegate.m in Sources */,
+				BE2EC22C180C5C4E007E76DB /* CountryMapViewController.m in Sources */,
 				D89CAB0E17FB0A7E006C1D1E /* main.m in Sources */,
+				D876F40F180C432C00BBD6ED /* MasterViewController.m in Sources */,
+				D89CAB4217FB132A006C1D1E /* CountryWebViewController.m in Sources */,
+				D876F412180C445600BBD6ED /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Countries/Countries-Prefix.pch";
 				INFOPLIST_FILE = "Countries/Countries-Info.plist";
@@ -405,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Countries/Countries-Prefix.pch";
 				INFOPLIST_FILE = "Countries/Countries-Info.plist";
@@ -474,6 +517,7 @@
 				D89CAB3517FB0A7E006C1D1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D89CAB3617FB0A7E006C1D1E /* Build configuration list for PBXNativeTarget "CountriesTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +526,7 @@
 				D89CAB3817FB0A7E006C1D1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
